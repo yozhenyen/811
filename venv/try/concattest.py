@@ -21,6 +21,6 @@ df = pd.read_csv('concattime.csv')
 df1 = df.iloc[:1,:].values[0]
 col = pd.unique(df1)
 # df = list(set(df1))
-
+print(len(col))
 
 
